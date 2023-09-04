@@ -24,7 +24,7 @@ public class PlayerMovementController : MonoBehaviour
     {
         if (Mouse.current.leftButton.isPressed)
         {
-            animator.SetBool("canWalk", true);
+            animator.SetBool("canWalk", true); 
             MovePlayer();
         }
         else
